@@ -1,0 +1,52 @@
+.contact{
+    background-color: #090c0f;
+}
+
+.ul0{
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+    margin-left: -16px;
+}
+.pc{
+    color: wheat;
+}
+.po{
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+  color: #ff8a00;
+  margin-left: 20px;
+}
+.ul1{
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    line-height: 1.75;
+    margin-left: -33px;
+}
+.ul1 i{
+font-size: 20px;
+margin-right: 10px;
+}
+.inf-c p::before{
+    content: '';
+    position: absolute;
+    border: 1px outset;
+    width: 100%;
+    left: 0px;
+    top: -37px;
+    border-color: rgba(255, 255, 255, 0.6);
+}
+
+.inf-c p{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+}
+.contact a:hover{
+    color: var(--main-color);
+    text-decoration: underline;
+    text-decoration-color: var(--main-color);
+}
